@@ -5,12 +5,12 @@ export default function Services({ t, lang }) {
   const icons = [Flame, TrendingUp, Crown];
 
   return (
-    <section id="services" className="py-20 md:py-28 relative scroll-mt-20">
+    <section className="py-20 md:py-28 relative">
       {/* Glows */}
       <div className="absolute top-1/3 right-1/4 w-80 h-80 bg-[#8A2BE2]/15 blur-[120px] rounded-full pointer-events-none -z-10"></div>
       <div className="absolute bottom-10 left-10 w-80 h-80 bg-[#00F0FF]/10 blur-[120px] rounded-full pointer-events-none -z-10"></div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div id="services" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">

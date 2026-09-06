@@ -9,8 +9,8 @@ export default function FAQ({ t }) {
   };
 
   return (
-    <section id="faq" className="py-20 md:py-28 relative scroll-mt-20">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 md:py-28 relative">
+      <div id="faq" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">

@@ -17,12 +17,12 @@ export default function AccountsCatalog({ t, lang }) {
   };
 
   return (
-    <section id="accounts" className="py-20 md:py-28 relative scroll-mt-20">
+    <section className="py-20 md:py-28 relative">
       {/* Background ambient lighting */}
       <div className="absolute top-1/2 left-0 w-96 h-96 bg-[#FF5722]/10 blur-[130px] rounded-full pointer-events-none -z-10"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#FF007A]/10 blur-[130px] rounded-full pointer-events-none -z-10"></div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div id="accounts" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
