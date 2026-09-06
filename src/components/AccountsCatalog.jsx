@@ -40,8 +40,8 @@ export default function AccountsCatalog({ t, lang }) {
           </p>
         </div>
 
-        {/* Filter Tabs */}
-        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mt-10 mb-12">
+        {/* Filter Tabs (Touch swipe on mobile) */}
+        <div className="flex items-center gap-2 sm:gap-3 mt-8 sm:mt-10 mb-8 sm:mb-12 overflow-x-auto no-scrollbar pb-2 sm:pb-0 px-4 sm:px-0 sm:justify-center -mx-4 sm:mx-0">
           {[
             { id: 'all', label: t.accounts.filterAll },
             { id: 'starter', label: t.accounts.filterStarter },
@@ -52,7 +52,7 @@ export default function AccountsCatalog({ t, lang }) {
             <button
               key={tab.id}
               onClick={() => setActiveFilter(tab.id)}
-              className={`px-4 sm:px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer ${
+              className={`whitespace-nowrap shrink-0 px-4 sm:px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer ${
                 activeFilter === tab.id
                   ? 'bg-gradient-to-r from-[#FF5722] to-[#FF007A] text-white shadow-lg shadow-[#FF5722]/30 scale-105'
                   : 'bg-[#121422] text-slate-300 hover:text-white hover:bg-[#181A2D] border border-white/5'
@@ -64,11 +64,11 @@ export default function AccountsCatalog({ t, lang }) {
         </div>
 
         {/* Accounts Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-8">
           {filteredItems.map(item => (
             <div
               key={item.id}
-              className={`relative rounded-3xl p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 ${
+              className={`relative rounded-2xl sm:rounded-3xl p-5 sm:p-7 flex flex-col justify-between transition-all duration-300 ${
                 item.isPopular
                   ? 'bg-gradient-to-b from-[#1A182F] to-[#10111E] border-2 border-[#FF007A] shadow-2xl shadow-[#FF007A]/20 scale-[1.02]'
                   : item.isBestValue
@@ -174,16 +174,16 @@ export default function AccountsCatalog({ t, lang }) {
         </div>
 
         {/* Custom Wholesale & Referral Callout */}
-        <div className="mt-14 rounded-3xl p-6 sm:p-8 bg-gradient-to-r from-[#16182B] via-[#1D172E] to-[#16182B] border border-white/10 flex flex-col md:flex-row items-center justify-between gap-6 shadow-2xl">
+        <div className="mt-10 sm:mt-14 rounded-2xl sm:rounded-3xl p-5 sm:p-8 bg-gradient-to-r from-[#16182B] via-[#1D172E] to-[#16182B] border border-white/10 flex flex-col md:flex-row items-center justify-between gap-5 sm:gap-6 shadow-2xl">
           <div className="space-y-2 text-center md:text-left">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FF5722]/20 text-xs font-bold text-[#FF7A00]">
               <Sparkles className="w-3.5 h-3.5" />
               <span>{lang === 'ru' ? 'Скидка 5-10% • Опт & Рефералы' : '5-10% Off • Bulk & Referrals'}</span>
             </div>
-            <h4 className="font-display font-bold text-xl sm:text-2xl text-white">
+            <h4 className="font-display font-bold text-lg sm:text-2xl text-white">
               {t.accounts.wholesaleNoticeTitle}
             </h4>
-            <p className="text-sm text-slate-300 max-w-xl">
+            <p className="text-xs sm:text-sm text-slate-300 max-w-xl leading-relaxed">
               {t.accounts.wholesaleNoticeDesc}
             </p>
           </div>
@@ -192,7 +192,7 @@ export default function AccountsCatalog({ t, lang }) {
             href="https://t.me/ReddFan_Studio?text=Hello!%20Interested%20in%20bulk%20or%20referral%20discount%20for%20Reddit%20accounts."
             target="_blank"
             rel="noopener noreferrer"
-            className="shrink-0 px-6 py-3.5 rounded-xl font-bold text-sm bg-gradient-to-r from-[#FF7A00] to-[#FF007A] text-white shadow-xl shadow-[#FF007A]/30 hover:scale-105 transition-all flex items-center gap-2"
+            className="w-full sm:w-auto shrink-0 px-6 py-3.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-[#FF7A00] to-[#FF007A] text-white shadow-xl shadow-[#FF007A]/30 active:scale-95 transition-all flex items-center justify-center gap-2"
           >
             <Send className="w-4 h-4" />
             <span>{lang === 'ru' ? 'Получить скидку 5-10% в TG' : 'Claim 5-10% Discount in TG'}</span>

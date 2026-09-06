@@ -36,41 +36,41 @@ export default function Reviews({ t, lang }) {
         </div>
 
         {/* Reviews Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mt-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-8 mt-12 sm:mt-14">
           {t.reviews.items.map((review, idx) => (
             <div
               key={idx}
-              className="glass-card rounded-3xl p-6 sm:p-8 flex flex-col justify-between border border-white/10 hover:border-[#FF007A]/40 transition-all duration-300 shadow-xl relative group"
+              className="glass-card rounded-2xl sm:rounded-3xl p-5 sm:p-8 flex flex-col justify-between border border-white/10 hover:border-[#FF007A]/40 transition-all duration-300 shadow-xl relative group"
             >
               {/* Telegram chat style quote mark */}
               <div className="space-y-4">
                 
                 {/* User Header */}
-                <div className="flex items-start justify-between gap-4">
-                  <div className="flex items-center gap-3.5">
+                <div className="flex items-start justify-between gap-3 sm:gap-4">
+                  <div className="flex items-center gap-3">
                     <img
                       src={review.avatar}
                       alt={review.name}
-                      className="w-12 h-12 rounded-full object-cover ring-2 ring-[#FF007A]/40"
+                      className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover ring-2 ring-[#FF007A]/40 shrink-0"
                     />
                     <div>
-                      <div className="flex items-center gap-2">
-                        <span className="font-display font-bold text-base sm:text-lg text-white">
+                      <div className="flex items-center gap-1.5 sm:gap-2">
+                        <span className="font-display font-bold text-sm sm:text-base md:text-lg text-white">
                           {review.name}
                         </span>
-                        <CheckCircle2 className="w-4 h-4 text-[#00F0FF]" title={t.reviews.verifiedClient} />
+                        <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#00F0FF] shrink-0" title={t.reviews.verifiedClient} />
                       </div>
-                      <div className="text-xs text-slate-400">
+                      <div className="text-[11px] sm:text-xs text-slate-400">
                         {review.role}
                       </div>
                     </div>
                   </div>
 
                   {/* Stars & Date */}
-                  <div className="text-right">
+                  <div className="text-right shrink-0">
                     <div className="flex text-amber-400 justify-end">
                       {[...Array(review.rating)].map((_, i) => (
-                        <Star key={i} className="w-3.5 h-3.5 fill-amber-400" />
+                        <Star key={i} className="w-3 h-3 sm:w-3.5 sm:h-3.5 fill-amber-400" />
                       ))}
                     </div>
                     <span className="text-[10px] text-slate-500 font-medium">
@@ -80,22 +80,22 @@ export default function Reviews({ t, lang }) {
                 </div>
 
                 {/* Purchase Tag */}
-                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-[#0C0E1B] border border-white/5 text-[11px] font-semibold text-[#00F0FF]">
-                  <Award className="w-3.5 h-3.5" />
+                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-[#0C0E1B] border border-white/5 text-[11px] font-semibold text-[#00F0FF]">
+                  <Award className="w-3.5 h-3.5 shrink-0" />
                   <span>{review.karmaBought}</span>
                 </div>
 
                 {/* Review text */}
-                <p className="text-slate-200 text-sm sm:text-base leading-relaxed italic">
+                <p className="text-slate-200 text-xs sm:text-sm md:text-base leading-relaxed italic">
                   "{review.text}"
                 </p>
 
               </div>
 
               {/* Bottom Verification Footer */}
-              <div className="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-[11px] text-slate-400">
+              <div className="mt-5 sm:mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-[11px] text-slate-400 flex-wrap gap-2">
                 <span className="flex items-center gap-1 text-emerald-400 font-medium">
-                  <ShieldCheck className="w-3.5 h-3.5" />
+                  <ShieldCheck className="w-3.5 h-3.5 shrink-0" />
                   <span>{t.reviews.verifiedClient}</span>
                 </span>
                 <span className="text-slate-500">via Telegram @ReddFan_Studio</span>
@@ -106,66 +106,66 @@ export default function Reviews({ t, lang }) {
         </div>
 
         {/* Visual Proof Case Study Mockup */}
-        <div className="mt-16 glass-card rounded-3xl p-6 sm:p-10 border border-[#00F0FF]/30 shadow-2xl relative overflow-hidden">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div className="mt-12 sm:mt-16 glass-card rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 border border-[#00F0FF]/30 shadow-2xl relative overflow-hidden">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center">
             
             <div className="lg:col-span-6 space-y-4">
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#00F0FF]/20 text-xs font-bold text-[#00F0FF]">
                 <TrendingUp className="w-3.5 h-3.5" />
                 <span>{lang === 'ru' ? 'Кейс Месяца' : 'Case Study of the Month'}</span>
               </div>
-              <h3 className="font-display font-black text-2xl sm:text-3xl text-white">
+              <h3 className="font-display font-black text-xl sm:text-2xl md:text-3xl text-white">
                 {lang === 'ru' 
                   ? 'Рост OnlyFans модели с $2,000 до $10,000/месяц за 45 дней' 
                   : 'Scaling an OnlyFans creator from $2,000 to $10,000/mo in 45 days'}
               </h3>
-              <p className="text-sm text-slate-300 leading-relaxed">
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
                 {lang === 'ru'
                   ? 'Использовали 3 прогретых аккаунта с отлежкой 6-8 недель, целевой постинг в 25 профильных сабреддитах и органический пуш. 0 блокировок и стабильный поток новых платных фанов.'
                   : 'Deployed 3 pre-warmed accounts with 6-8 weeks aging, targeted posting in 25 niche subreddits, and organic momentum. Zero flags and a steady stream of paying fans.'}
               </p>
               
-              <div className="grid grid-cols-3 gap-3 pt-2">
-                <div className="p-3 rounded-xl bg-[#0C0E1A] border border-white/5 text-center">
-                  <div className="font-display font-black text-lg sm:text-xl text-[#FF7A00]">+400%</div>
-                  <div className="text-[10px] text-slate-400">MRR Growth</div>
+              <div className="grid grid-cols-3 gap-2 sm:gap-3 pt-2">
+                <div className="p-2.5 sm:p-3 rounded-xl bg-[#0C0E1A] border border-white/5 text-center">
+                  <div className="font-display font-black text-base sm:text-xl text-[#FF7A00]">+400%</div>
+                  <div className="text-[9px] sm:text-[10px] text-slate-400">MRR Growth</div>
                 </div>
-                <div className="p-3 rounded-xl bg-[#0C0E1A] border border-white/5 text-center">
-                  <div className="font-display font-black text-lg sm:text-xl text-[#00F0FF]">$10,000</div>
-                  <div className="text-[10px] text-slate-400">Monthly Rev</div>
+                <div className="p-2.5 sm:p-3 rounded-xl bg-[#0C0E1A] border border-white/5 text-center">
+                  <div className="font-display font-black text-base sm:text-xl text-[#00F0FF]">$10,000</div>
+                  <div className="text-[9px] sm:text-[10px] text-slate-400">Monthly Rev</div>
                 </div>
-                <div className="p-3 rounded-xl bg-[#0C0E1A] border border-white/5 text-center">
-                  <div className="font-display font-black text-lg sm:text-xl text-emerald-400">0 bans</div>
-                  <div className="text-[10px] text-slate-400">Full Safety</div>
+                <div className="p-2.5 sm:p-3 rounded-xl bg-[#0C0E1A] border border-white/5 text-center">
+                  <div className="font-display font-black text-base sm:text-xl text-emerald-400">0 bans</div>
+                  <div className="text-[9px] sm:text-[10px] text-slate-400">Full Safety</div>
                 </div>
               </div>
             </div>
 
             {/* Simulated Reddit Viral Post Widget */}
-            <div className="lg:col-span-6 bg-[#0E101D] p-5 rounded-2xl border border-white/10 shadow-2xl space-y-3 font-sans">
-              <div className="flex items-center justify-between text-xs text-slate-400 border-b border-white/5 pb-2">
-                <span className="font-semibold text-slate-200">r/goddesses • Posted by u/ReddFan_VIP</span>
-                <span className="text-emerald-400 font-medium">Verified OP</span>
+            <div className="lg:col-span-6 bg-[#0E101D] p-4 sm:p-5 rounded-2xl border border-white/10 shadow-2xl space-y-3 font-sans">
+              <div className="flex items-center justify-between text-[11px] sm:text-xs text-slate-400 border-b border-white/5 pb-2 flex-wrap gap-1">
+                <span className="font-semibold text-slate-200 truncate max-w-[200px] sm:max-w-none">r/goddesses • Posted by u/ReddFan_VIP</span>
+                <span className="text-emerald-400 font-medium shrink-0">Verified OP</span>
               </div>
-              <div className="font-semibold text-sm sm:text-base text-white">
+              <div className="font-semibold text-xs sm:text-base text-white">
                 "Felt cute in my new set, thought Reddit might appreciate it ✨ [OC]"
               </div>
-              <div className="h-28 rounded-xl bg-gradient-to-r from-purple-900/40 via-pink-900/30 to-[#121422] flex items-center justify-center border border-white/5 relative overflow-hidden">
-                <div className="text-center space-y-1">
-                  <span className="text-xs font-bold text-[#FF007A] uppercase tracking-wider block">Viral Reddit Thread</span>
-                  <span className="text-2xl font-black text-white">#1 on r/all NSFW</span>
+              <div className="h-24 sm:h-28 rounded-xl bg-gradient-to-r from-purple-900/40 via-pink-900/30 to-[#121422] flex items-center justify-center border border-white/5 relative overflow-hidden">
+                <div className="text-center space-y-0.5 sm:space-y-1 px-3">
+                  <span className="text-[10px] sm:text-xs font-bold text-[#FF007A] uppercase tracking-wider block">Viral Reddit Thread</span>
+                  <span className="text-xl sm:text-2xl font-black text-white">#1 on r/all NSFW</span>
                 </div>
               </div>
-              <div className="flex items-center justify-between text-xs font-semibold text-slate-400 pt-1">
+              <div className="flex items-center justify-between text-[11px] sm:text-xs font-semibold text-slate-400 pt-1 flex-wrap gap-2">
                 <div className="flex items-center gap-3">
                   <span className="flex items-center gap-1 text-[#FF5722]">
-                    <ThumbsUp className="w-3.5 h-3.5" /> 5,420 Upvotes (99%)
+                    <ThumbsUp className="w-3.5 h-3.5 shrink-0" /> 5,420 (99%)
                   </span>
                   <span className="flex items-center gap-1 text-slate-300">
-                    <MessageSquare className="w-3.5 h-3.5" /> 412 Comments
+                    <MessageSquare className="w-3.5 h-3.5 shrink-0" /> 412
                   </span>
                 </div>
-                <span className="text-[#00F0FF] bg-[#00F0FF]/10 px-2.5 py-0.5 rounded-full">
+                <span className="text-[#00F0FF] bg-[#00F0FF]/10 px-2 py-0.5 rounded-full shrink-0">
                   18 Awards
                 </span>
               </div>

@@ -36,7 +36,7 @@ export default function Services({ t, lang }) {
             return (
               <div
                 key={service.id}
-                className={`relative rounded-3xl p-8 flex flex-col justify-between transition-all duration-300 group ${
+                className={`relative rounded-2xl sm:rounded-3xl p-6 sm:p-8 flex flex-col justify-between transition-all duration-300 group ${
                   isMain 
                     ? 'bg-[#121424] border-2 border-[#FF5722]/70 shadow-2xl shadow-[#FF5722]/15 hover:border-[#FF5722]' 
                     : 'bg-[#101220] border border-white/10 hover:border-white/20 shadow-xl'

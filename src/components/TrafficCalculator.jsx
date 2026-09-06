@@ -83,15 +83,15 @@ export default function TrafficCalculator({ t, lang }) {
         </div>
 
         {/* Calculator Main Box */}
-        <div className="mt-14 max-w-4xl mx-auto glass-card rounded-3xl p-6 sm:p-10 border border-white/10 shadow-2xl relative overflow-hidden">
+        <div className="mt-8 sm:mt-14 max-w-4xl mx-auto glass-card rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 border border-white/10 shadow-2xl relative overflow-hidden">
           
           {/* Subtle decorative glow inside card */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-bl from-[#FF007A]/20 via-[#FF5722]/10 to-transparent blur-2xl pointer-events-none"></div>
 
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 sm:gap-8 items-center">
             
             {/* Inputs Column */}
-            <div className="md:col-span-6 space-y-7">
+            <div className="md:col-span-6 space-y-6 sm:space-y-7">
               
               {/* Slider 1: Karma Tier */}
               <div>

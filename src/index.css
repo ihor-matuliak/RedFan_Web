@@ -91,3 +91,12 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #FF5722;
 }
+
+/* Hide scrollbar for Chrome, Safari, Opera and mobile swipe containers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

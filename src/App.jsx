@@ -17,7 +17,7 @@ export default function App() {
   const t = content[lang];
 
   return (
-    <div className="min-h-screen bg-[#08080C] text-slate-100 font-sans selection:bg-[#FF007A] selection:text-white bg-grid-pattern relative">
+    <div className="min-h-screen bg-[#08080C] text-slate-100 font-sans selection:bg-[#FF007A] selection:text-white bg-grid-pattern relative overflow-x-hidden">
       
       {/* Dynamic Ambient Background Elements */}
       <div className="fixed inset-0 bg-radial-gradient pointer-events-none -z-10"></div>
