@@ -10,8 +10,8 @@ export default function AccountsCatalog({ t, lang }) {
   });
 
   const generateTgLink = (itemName, price) => {
-    const text = lang === 'ua' 
-      ? `Привіт! Хочу придбати акаунт "${itemName}" (${price}) у ReddFan Studio. Підкажіть наявність та реквізити.`
+    const text = lang === 'ru' 
+      ? `Здравствуйте! Хочу приобрести аккаунт "${itemName}" (${price}) в ReddFan Studio. Подскажите наличие и реквизиты для оплаты.`
       : `Hello! I would like to purchase "${itemName}" (${price}) at ReddFan Studio. Please provide availability and payment details.`;
     return `https://t.me/ReddFan_Studio?text=${encodeURIComponent(text)}`;
   };
@@ -45,9 +45,9 @@ export default function AccountsCatalog({ t, lang }) {
           {[
             { id: 'all', label: t.accounts.filterAll },
             { id: 'starter', label: t.accounts.filterStarter },
-            { id: 'pro', label: t.accounts.filterPro },
-            { id: 'elite', label: t.accounts.filterElite },
-            { id: 'adult', label: t.accounts.filterAdult }
+            { id: 'mid', label: t.accounts.filterMid },
+            { id: 'high', label: t.accounts.filterHigh },
+            { id: 'vip', label: t.accounts.filterVip }
           ].map(tab => (
             <button
               key={tab.id}
@@ -73,6 +73,8 @@ export default function AccountsCatalog({ t, lang }) {
                   ? 'bg-gradient-to-b from-[#1A182F] to-[#10111E] border-2 border-[#FF007A] shadow-2xl shadow-[#FF007A]/20 scale-[1.02]'
                   : item.isBestValue
                   ? 'bg-gradient-to-b from-[#1C1A27] to-[#0F101C] border-2 border-[#FF5722]/80 shadow-2xl shadow-[#FF5722]/20'
+                  : item.category === 'vip'
+                  ? 'bg-gradient-to-b from-[#1E1730] to-[#0D0E1C] border-2 border-[#00F0FF]/60 shadow-2xl shadow-[#00F0FF]/15'
                   : 'bg-[#10121F]/90 border border-white/10 hover:border-white/20 shadow-xl'
               }`}
             >
@@ -83,6 +85,8 @@ export default function AccountsCatalog({ t, lang }) {
                     ? 'bg-[#FF007A] text-white shadow-md shadow-[#FF007A]/40'
                     : item.isBestValue
                     ? 'bg-[#FF5722] text-white shadow-md shadow-[#FF5722]/40'
+                    : item.category === 'vip'
+                    ? 'bg-[#00F0FF] text-slate-900 shadow-md shadow-[#00F0FF]/40 font-black'
                     : 'bg-[#1D2035] text-[#00F0FF] border border-[#00F0FF]/30'
                 }`}>
                   {item.badge}
@@ -102,13 +106,13 @@ export default function AccountsCatalog({ t, lang }) {
 
                 <div className="mt-3 p-3.5 rounded-xl bg-[#090A13] border border-white/5 flex items-center justify-between">
                   <div>
-                    <div className="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Total Karma</div>
-                    <div className="font-display font-black text-lg sm:text-xl text-transparent bg-clip-text bg-gradient-to-r from-[#FF7A00] to-[#FF007A]">
+                    <div className="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Karma Level</div>
+                    <div className="font-display font-black text-base sm:text-lg text-transparent bg-clip-text bg-gradient-to-r from-[#FF7A00] to-[#FF007A]">
                       {item.karma}
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Вік / Age</div>
+                    <div className="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Отлежка / Age</div>
                     <div className="text-xs sm:text-sm font-semibold text-slate-200">
                       {item.age}
                     </div>
@@ -135,14 +139,14 @@ export default function AccountsCatalog({ t, lang }) {
               <div className="mt-8 pt-5 border-t border-white/10">
                 <div className="flex items-baseline justify-between mb-4">
                   <div>
-                    <span className="text-xs text-slate-400 block font-medium">Вартість / Price</span>
+                    <span className="text-xs text-slate-400 block font-medium">Стоимость / Price</span>
                     <span className="font-display font-black text-3xl sm:text-4xl text-white">
                       {item.price}
                     </span>
                   </div>
-                  <div className="text-right">
-                    <span className="text-[10px] text-slate-400 block">Рекомендовано для</span>
-                    <span className="text-xs font-semibold text-[#00F0FF]">
+                  <div className="text-right max-w-[140px]">
+                    <span className="text-[10px] text-slate-400 block">Для кого / Target</span>
+                    <span className="text-xs font-semibold text-[#00F0FF] truncate block">
                       {item.recommendedFor}
                     </span>
                   </div>
@@ -155,10 +159,12 @@ export default function AccountsCatalog({ t, lang }) {
                   className={`w-full py-3.5 px-4 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition-all duration-200 cursor-pointer ${
                     item.isPopular || item.isBestValue
                       ? 'bg-gradient-to-r from-[#FF5722] via-[#FF007A] to-[#8A2BE2] text-white shadow-lg shadow-[#FF5722]/30 hover:scale-[1.02]'
+                      : item.category === 'vip'
+                      ? 'bg-gradient-to-r from-[#00F0FF] via-[#FF007A] to-[#FF5722] text-slate-900 font-extrabold shadow-lg shadow-[#00F0FF]/30 hover:scale-[1.02]'
                       : 'bg-[#181A2D] hover:bg-[#20233B] text-white border border-white/10 hover:border-[#FF5722]/50'
                   }`}
                 >
-                  <Send className="w-4 h-4 text-[#00F0FF]" />
+                  <Send className="w-4 h-4 text-white" />
                   <span>{t.accounts.buyNow}</span>
                 </a>
               </div>
@@ -167,31 +173,29 @@ export default function AccountsCatalog({ t, lang }) {
           ))}
         </div>
 
-        {/* Custom Wholesale Orders Callout */}
+        {/* Custom Wholesale & Referral Callout */}
         <div className="mt-14 rounded-3xl p-6 sm:p-8 bg-gradient-to-r from-[#16182B] via-[#1D172E] to-[#16182B] border border-white/10 flex flex-col md:flex-row items-center justify-between gap-6 shadow-2xl">
           <div className="space-y-2 text-center md:text-left">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FF5722]/20 text-xs font-bold text-[#FF7A00]">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>B2B / Оптові замовлення</span>
+              <span>{lang === 'ru' ? 'Скидка 5-10% • Опт & Рефералы' : '5-10% Off • Bulk & Referrals'}</span>
             </div>
             <h4 className="font-display font-bold text-xl sm:text-2xl text-white">
-              {lang === 'ua' ? 'Потрібні індивідуальні акаунти або опт від 10+ штук?' : 'Need custom aged accounts or bulk orders 10+ units?'}
+              {t.accounts.wholesaleNoticeTitle}
             </h4>
             <p className="text-sm text-slate-300 max-w-xl">
-              {lang === 'ua' 
-                ? 'Ми збираємо індивідуальні пули акаунтів з певною кармою, сабредіт-історією та налаштуваннями під ваші антидетект браузери зі знижкою до 30%.'
-                : 'We curate tailored batches with designated subreddit history, specific karma milestones, and pre-formatted profiles with up to 30% volume discounts.'}
+              {t.accounts.wholesaleNoticeDesc}
             </p>
           </div>
 
           <a
-            href="https://t.me/ReddFan_Studio?text=Hello!%20Interested%20in%20bulk%20custom%20Reddit%20accounts."
+            href="https://t.me/ReddFan_Studio?text=Hello!%20Interested%20in%20bulk%20or%20referral%20discount%20for%20Reddit%20accounts."
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 px-6 py-3.5 rounded-xl font-bold text-sm bg-gradient-to-r from-[#FF7A00] to-[#FF007A] text-white shadow-xl shadow-[#FF007A]/30 hover:scale-105 transition-all flex items-center gap-2"
           >
             <Send className="w-4 h-4" />
-            <span>{lang === 'ua' ? 'Обговорити опт у Telegram' : 'Discuss bulk in Telegram'}</span>
+            <span>{lang === 'ru' ? 'Получить скидку 5-10% в TG' : 'Claim 5-10% Discount in TG'}</span>
           </a>
         </div>
 

@@ -31,7 +31,7 @@ export default function Comparison({ t, lang }) {
           {/* Table Header */}
           <div className="grid grid-cols-12 bg-[#0C0E1A] p-4 sm:p-6 border-b border-white/10 items-center text-xs sm:text-sm font-bold uppercase tracking-wider">
             <div className="col-span-5 sm:col-span-6 text-slate-400">
-              {lang === 'ua' ? 'Критерій безпеки' : 'Security Criterion'}
+              {lang === 'ru' ? 'Критерий безопасности' : 'Security Criterion'}
             </div>
             <div className="col-span-4 sm:col-span-3 text-[#FF5722] flex items-center gap-1">
               <Zap className="w-3.5 h-3.5" />

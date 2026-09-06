@@ -149,7 +149,7 @@ export default function Hero({ t }) {
                     <Flame className="w-4 h-4" />
                   </div>
                   <div>
-                    <div className="text-xs font-bold text-white">100k+ Karma</div>
+                    <div className="text-xs font-bold text-white">3,000 Karma VIP</div>
                     <div className="text-[10px] text-slate-400">Ready to Post</div>
                   </div>
                 </div>
@@ -177,7 +177,7 @@ export default function Hero({ t }) {
                     <Zap className="w-4 h-4" />
                   </div>
                   <div>
-                    <div className="text-xs font-bold text-white">&lt; 3 min Dispatch</div>
+                    <div className="text-xs font-bold text-white">&lt; 10 min Dispatch</div>
                     <div className="text-[10px] text-slate-400">via Telegram</div>
                   </div>
                 </div>

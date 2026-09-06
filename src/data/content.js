@@ -1,365 +1,350 @@
 export const content = {
-  ua: {
+  ru: {
     nav: {
-      accounts: "Каталог Акаунтів",
-      services: "Послуги",
+      accounts: "Аккаунты",
+      services: "Услуги",
       calculator: "Калькулятор",
-      reviews: "Відгуки",
-      shield: "Безпека",
+      reviews: "Отзывы",
+      shield: "Безопасность",
       faq: "FAQ",
       onlineStatus: "Онлайн в Telegram",
-      ctaButton: "Зв'язатися в TG",
+      ctaButton: "Связаться в TG",
       telegramHandle: "@ReddFan_Studio"
     },
     hero: {
-      badge: "🔥 Студія №1 з Reddit Трафіку та Карми",
-      titleStart: "Елітний Reddit Трафік & ",
-      titleHighlight: "Прогріті Акаунти",
-      titleEnd: " для OnlyFans та 18+ Індустрії",
-      description: "Масштабуємо моделі до Top 0.1% на OnlyFans. Постачаємо ручно прогріті Reddit акаунти з високою кармою, організовуємо вірусний перелив платоспроможного трафіку з США та Європи.",
-      ctaPrimary: "Обрати Акаунт з Кармою",
-      ctaSecondary: "Написати в Telegram",
-      subtext: "Миттєва видача • Гарантія заміни 48h • Підтримка 24/7",
+      badge: "🔥 Студия №1 по Reddit Трафику и Карме",
+      titleStart: "Элитный Reddit Трафик & ",
+      titleHighlight: "Прогретые Аккаунты",
+      titleEnd: " для OnlyFans и 18+ Индустрии",
+      description: "Масштабируем моделей в Top 0.1% на OnlyFans. Поставляем вручную прогретые Reddit аккаунты с высокой кармой, организуем вирусный перелив платежеспособного трафика из США и Европы.",
+      ctaPrimary: "Выбрать Аккаунт с Кармой",
+      ctaSecondary: "Написать в Telegram",
+      subtext: "Мгновенная выдача • Гарантия замены 72h • Поддержка 24/7",
       stats: [
-        { value: "15,400+", label: "Виданих акаунтів" },
-        { value: "$4.2M+", label: "Зароблено клієнтами" },
-        { value: "99.8%", label: "Безпека (Ban-Free)" },
-        { value: "< 3 хв", label: "Швидкість видачі" }
+        { value: "1,000+", label: "Выданных аккаунтов" },
+        { value: "$500k+", label: "Заработано клиентами" },
+        { value: "99.8%", label: "Безопасность (Ban-Free)" },
+        { value: "< 10 мин", label: "Скорость выдачи" }
       ],
-      trustPill: "Працюємо з топ OnlyFans агентствами та солістами по всьому світу"
+      trustPill: "Работаем с топ OnlyFans агентствами и соло-моделями по всему миру"
     },
     accounts: {
-      badge: "Каталог Продукту",
-      title: "Прогріті Reddit Акаунти з Кармою",
-      subtitle: "Кожен акаунт проходить ручний багаторівневий прогрів на чистих мобільних проксі США/ЄС, має природну історію постів і коментарів та готовий до миттєвого постінгу у найсуворіших 18+ сабредітах.",
-      filterAll: "Всі Акаунти",
-      filterStarter: "1k - 5k Karma",
-      filterPro: "10k - 30k Karma",
-      filterElite: "50k - 100k+ Karma",
-      filterAdult: "Нішеві 18+ Прогріті",
-      cardBadgePopular: "Найпопулярніший",
-      cardBadgeBestValue: "Топ Конверсія",
-      cardBadgeWhale: "Максимальний Траст",
-      buyNow: "Придбати в Telegram",
-      instantBadge: "Миттєва видача",
+      badge: "Каталог Продукта",
+      title: "Прогретые Reddit Аккаунты с Кармой",
+      subtitle: "Каждый аккаунт проходит ручной многоуровневый прогрев на чистых резидентских прокси США/ЕС, имеет естественную историю постов и комментариев и готов к мгновенному постингу в строгих 18+ сабреддитах.",
+      filterAll: "Все Аккаунты",
+      filterStarter: "200 Comment",
+      filterMid: "1500 - 2000 Karma",
+      filterHigh: "2500+ Karma",
+      filterVip: "3000 VIP (ID + Донат)",
+      cardBadgePopular: "Хит Продаж",
+      cardBadgeBestValue: "Топ Конверсия",
+      cardBadgeVip: "Максимальный Траст",
+      buyNow: "Купить в Telegram",
+      instantBadge: "Мгновенная выдача",
+      wholesaleNoticeTitle: "Опт и программа «Приведи друга»",
+      wholesaleNoticeDesc: "При покупке оптом или по рекомендации друга действует скидка 5-10% на весь заказ!",
       items: [
         {
-          id: "starter-3k",
+          id: "tier-200c",
           category: "starter",
-          name: "Starter Warm Pack",
-          karma: "2,500 – 4,000",
-          karmaRatio: "70% Post / 30% Comment",
-          age: "4 – 8 місяців відлежки",
-          price: "$29",
-          badge: "Легкий старт",
+          name: "Starter Comment Warm",
+          karma: "200 Comment Karma",
+          karmaRatio: "100% Comment Karma",
+          age: "От 4 недель отлежки",
+          price: "$25",
+          badge: "Быстрый старт",
           features: [
-            "Чиста рідна пошта (в комплекті)",
-            "Пройдено базові авто-модератори",
-            "Можливість писати коментарі без затримок",
-            "Підходить для масового тесту лінків",
-            "Гарантія на валідність 48 годин"
+            "200 качественной кармы комментариев",
+            "Чистая родная почта в комплекте",
+            "Отлежка от 4 недель на чистых IP",
+            "Проходит базовые спам-фильтры комментариев",
+            "Гарантия на валидность 72 часа"
           ],
-          recommendedFor: "Початківці та тестери креативів"
+          recommendedFor: "Быстрый тест связок и комментинг"
         },
         {
-          id: "growth-15k",
-          category: "pro",
-          name: "Pro Growth Traffic",
-          karma: "12,000 – 18,000",
-          karmaRatio: "60% Post / 40% Comment",
-          age: "1 – 2 роки відлежки",
-          price: "$79",
+          id: "tier-1500k",
+          category: "mid",
+          name: "Pro Growth 1.5k",
+          karma: "1,500 Общей Кармы",
+          karmaRatio: "Оптимальный Post/Comment микс",
+          age: "От 4 недель отлежки",
+          price: "$64",
+          badge: "Популярный выбор",
+          features: [
+            "1,500 стабильной кармы (посты + комменты)",
+            "Отлежка от 4 недель в активных сабреддитах",
+            "Открыт доступ к большинству NSFW сообществ",
+            "Полный комплект: Cookies + Логин/Пароль + 2FA",
+            "Гарантия на валидность 72 часа"
+          ],
+          recommendedFor: "Начало активного постинга моделей"
+        },
+        {
+          id: "tier-2000k",
+          category: "mid",
+          name: "Advanced Authority 2k",
+          karma: "2,000 Общей Кармы",
+          karmaRatio: "Естественный баланс активности",
+          age: "От 6 недель отлежки",
+          price: "$69",
           isPopular: true,
-          badge: "Хіт Продажів",
+          badge: "Хит Продаж",
           features: [
-            "Доступ до 95% закритих 18+ сабредітів",
-            "Високий внутрішній Reddit TrustScore",
-            "Природна активність у популярних трендах",
-            "Повний комплект: Cookies + Логін/Пароль + 2FA",
-            "Індивідуальна інструкція безпечного входу"
+            "2,000 проверенной кармы без списаний",
+            "Отлежка от 6 недель (высокий траст)",
+            "Легкий проход жестких автомодераторов 18+",
+            "Живая история в популярных трендах",
+            "Гарантия на валидность 72 часа"
           ],
-          recommendedFor: "OnlyFans моделі та щоденний прогрів"
+          recommendedFor: "Регулярный постинг OnlyFans контента"
         },
         {
-          id: "dominator-45k",
-          category: "pro",
-          name: "Elite Dominator",
-          karma: "35,000 – 55,000",
-          karmaRatio: "50% Post / 50% Comment",
-          age: "2 – 4 роки відлежки",
-          price: "$149",
+          id: "tier-2500k",
+          category: "high",
+          name: "Elite Heavyweight 2.5k+",
+          karma: "2,500+ Общей Кармы",
+          karmaRatio: "Высокий трастовый профиль",
+          age: "От 6-8 недель отлежки",
+          price: "$74",
           isBestValue: true,
-          badge: "Топ для Вірусів",
+          badge: "Топ для Вирусов",
           features: [
-            "Безлімітний вхід у гігантські NSFW сабредіти",
-            "Низький шанс шедоубану при агресивному промо",
-            "Входив у топ коментарів r/all та r/AskReddit",
-            "Ідеальний акаунт для виходу в Hot/Top",
-            "Пріоритетна заміна та VIP підтримка 24/7"
+            "2,500+ органической кармы с историей",
+            "Глубокая отлежка 6-8 недель на приватных прокси",
+            "Минимальный шанс шедоубана при активном промо",
+            "Отлично подходит для выхода в разделы Hot/Top",
+            "Гарантия на валидность 72 часа + VIP поддержка"
           ],
-          recommendedFor: "Агентства та масштабування топ-моделей"
+          recommendedFor: "Агентства и масштабирование топ-моделей"
         },
         {
-          id: "whale-100k",
-          category: "elite",
-          name: "Godlike Whale Tier",
-          karma: "80,000 – 130,000+",
-          karmaRatio: "Баланс пост/комент карми",
-          age: "4 – 7 років бездоганної історії",
-          price: "$279",
-          badge: "Абсолютний Авторитет",
+          id: "tier-3000vip",
+          category: "vip",
+          name: "VIP Supreme Trust 3k",
+          karma: "3,000 Общей Кармы + ID + Донат",
+          karmaRatio: "Максимальный TrustScore Reddit",
+          age: "От 8 недель чистой отлежки",
+          price: "$200",
+          badge: "Абсолютный Траст",
           features: [
-            "Максимальний можливий траст на Reddit",
-            "Імунітет до більшості спам-фільтрів платформи",
-            "Нагороди (Reddit Awards) та бейджі верифікації",
-            "Індивідуальний підбір історії під вашу тематику",
-            "Персональний менеджер у Telegram"
+            "3,000 органической кармы высочайшего качества",
+            "Подтверждение личности (Identity Verified)",
+            "Официальный донат/Reddit Gold на аккаунте",
+            "Максимальное доверие от алгоритмов платформы",
+            "Отлежка от 8 недель на приватных IP США",
+            "Гарантия на валидность 72 часа + приоритетная замена"
           ],
-          recommendedFor: "Великі медіабаєри та крипто/OF синдикати"
-        },
-        {
-          id: "adult-custom",
-          category: "adult",
-          name: "18+ Pre-Warmed Model Persona",
-          karma: "15,000 – 30,000",
-          karmaRatio: "NSFW оптимізована карма",
-          age: "1+ рік відлежки",
-          price: "$119",
-          badge: "Готово під OnlyFans",
-          features: [
-            "Вже розігрітий у жіночих та лайфстайл сабредітах",
-            "Сформований природний жіночий профіль",
-            "Високий CTR переходів у біопрофіль",
-            "Дозволені прямі посилання у закріплених постах",
-            "Повний пакет налаштувань під ключ"
-          ],
-          recommendedFor: "OnlyFans, Fansly, Fansly, Fansly та 18+ моделі"
-        },
-        {
-          id: "agency-bundle",
-          category: "starter",
-          name: "Agency Starter Pack (5 шт)",
-          karma: "5x по 5,000 – 8,000 Karma",
-          karmaRatio: "Мікс пост/комент",
-          age: "6 – 12 місяців відлежки",
-          price: "$199",
-          badge: "Опт зі знижкою",
-          features: [
-            "5 повноцінних незалежних акаунтів",
-            "Різні підмережі та проксі при прогріві",
-            "Знижка 25% від роздрібної ціни",
-            "Експорт у форматі JSON/Excel для антидетект браузерів",
-            "Швидкий сетап для вашої команди"
-          ],
-          recommendedFor: "Команди арбітражу та агентства з 3+ моделями"
+          recommendedFor: "Флагманские OnlyFans модели и крупные агентства"
         }
       ]
     },
     services: {
-      badge: "Повний спектр послуг",
-      title: "Що ми робимо для вашого бізнесу",
-      subtitle: "Ми не просто продаємо акаунти — ми будуємо надійну інфраструктуру притоку платоспроможних фанів та клієнтів з Reddit.",
+      badge: "Полный спектр услуг",
+      title: "Что мы делаем для вашего бизнеса",
+      subtitle: "Мы не просто продаем аккаунты — мы выстраиваем надежную инфраструктуру притока платежеспособных фанов и клиентов с Reddit.",
       list: [
         {
           id: "accounts-service",
-          title: "Продаж Прогрітих Акаунтів з Кармою",
-          highlight: "Основна послуга",
-          description: "Преміальні акаунти віком від 6 місяців до 7 років з кармою до 150k+. Повна передача прав, рідна пошта, кукі для антидетект браузерів (Dolphin, AdsPower, GoLogin).",
+          title: "Продажа Прогретых Аккаунтов с Кармой",
+          highlight: "Основная услуга",
+          description: "Премиальные аккаунты с отлежкой от 4 до 8+ недель и кармой до 3,000+. Полная передача прав, родная почта, куки для антидетект браузеров (Dolphin, AdsPower, GoLogin).",
           points: [
-            "Ручний органічний прогрів без спам-тригерів",
-            "Чисті приватні резидентські проксі Tier-1 країн",
-            "Гарантована заміна у разі проблем протягом 48 годин",
-            "Миттєва видача через бота або менеджера в Telegram"
+            "Ручной органический прогрев без спам-триггеров",
+            "Чистые приватные резидентские прокси США/ЕС",
+            "Гарантированная замена при возникновении вопросов в течение 72 часов",
+            "Быстрая выдача через менеджера в Telegram менее 10 минут"
           ]
         },
         {
           id: "traffic-service",
-          title: "Перелив Трафіку на OnlyFans & 18+",
-          highlight: "Максимальний ROI",
-          description: "Організація регулярного притоку цільових підписників з найгарячіших Reddit спільнот США, Канади, Британії та Австралії безпосередньо на вашу платформу.",
+          title: "Перелив Трафика на OnlyFans & 18+",
+          highlight: "Максимальный ROI",
+          description: "Организация регулярного притока целевых подписчиков из самых горячих Reddit сообществ США, Канады, Британии и Австралии прямо на вашу платформу.",
           points: [
-            "Аналіз та підбір понад 120+ профільних NSFW сабредітів",
-            "Створення клікабельних, вірусних заголовків та постів",
-            "Виведення постів у розділи Hot та Top за допомогою органічного пушу",
-            "Конверсія переходів до 12-18% у платні підписки"
+            "Анализ и подбор более 120+ профильных NSFW сабреддитов",
+            "Создание кликабельных вирусных заголовков и постов",
+            "Вывод постов в разделы Hot и Top с помощью органического пуша",
+            "Конверсия переходов до 12-18% в платные подписки"
           ]
         },
         {
           id: "management-service",
-          title: "Комплексне Ведення Моделей під ключ",
-          highlight: "Turnkey Рішення",
-          description: "Повний аутсорсинг Reddit для вашого агентства або індивідуальної моделі. Від щоденного розкладу публікацій до спілкування в коментарях та захисту від бана.",
+          title: "Комплексное Ведение Моделей под ключ",
+          highlight: "Turnkey Решение",
+          description: "Полный аутсорсинг Reddit для вашего агентства или индивидуальной модели. От контент-плана и постинга до прохождения верификаций и защиты от бана.",
           points: [
-            "Індивідуальний контент-план та матриця тестування ніш",
-            "Проходження верифікацій у закритих сабредітах від вашого імені",
-            "Щотижнева прозора аналітика переглядів, апвоутів та доходів",
-            "Виведення моделі на стабільні $10,000+ щомісяця лише з Reddit"
+            "Индивидуальный контент-план и матрица тестирования ниш",
+            "Прохождение верификаций в закрытых сабреддитах от вашего имени",
+            "Еженедельная прозрачная аналитика просмотров, апвоутов и доходов",
+            "Масштабирование модели от $2,000 до $10,000/месяц только с Reddit"
           ]
         }
       ]
     },
     calculator: {
-      badge: "Інтерактивний Розрахунок",
-      title: "Калькулятор ROI Трафіку та Карми",
-      subtitle: "Порахуйте, скільки підписників та доходу може принести правильна Reddit-інфраструктура для вашої моделі або агентства.",
-      karmaLabel: "Бажана сумарна карма акаунтів:",
-      modelsLabel: "Кількість моделей / напрямків:",
-      resultsTitle: "Очікувані показники на місяць:",
-      estimatedReach: "Охоплення постів (переглядів):",
-      estimatedSubs: "Цільових переходів у воронку:",
-      estimatedRevenue: "Потенційний дохід моделі:",
-      recommendedPack: "Рекомендований набір:",
-      orderCalculated: "Замовити цей набір у Telegram"
+      badge: "Интерактивный Расчет",
+      title: "Калькулятор ROI Трафика и Кармы",
+      subtitle: "Посчитайте, сколько подписчиков и дохода может принести правильная Reddit-инфраструктура для вашей модели или агентства.",
+      karmaLabel: "Выберите тариф аккаунта:",
+      modelsLabel: "Количество моделей / направлений:",
+      resultsTitle: "Ожидаемые показатели в месяц:",
+      estimatedReach: "Охват постов (просмотров):",
+      estimatedSubs: "Целевых переходов в воронку:",
+      estimatedRevenue: "Потенциальный доход модели:",
+      recommendedPack: "Рекомендуемый тариф:",
+      orderCalculated: "Заказать этот сетап в Telegram"
     },
     reviews: {
-      badge: "Реальні Кейси & Відгуки",
-      title: "Що кажуть наші клієнти",
-      subtitle: "Понад 500+ задоволених вебкам та OnlyFans студій, арбітражників та топових авторок довіряють нам свій щоденний трафік.",
-      ratingSummary: "4.98 / 5.0 загальний рейтинг на основі 340+ відгуків",
-      verifiedClient: "Верифікований покупець",
+      badge: "Реальные Кейсы & Отзывы",
+      title: "Что говорят наши клиенты",
+      subtitle: "Более 500+ довольных вебкам и OnlyFans студий, арбитражников и топовых авторов доверяют нам свой ежедневный трафик.",
+      ratingSummary: "4.98 / 5.0 общий рейтинг на основе 340+ отзывов",
+      verifiedClient: "Верифицированный покупатель",
       items: [
         {
-          name: "Олександр М.",
+          name: "Александр М.",
           role: "Owner @ Zenith OF Agency (14 моделей)",
           avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
-          karmaBought: "Куплено 18 акаунтів (20k–50k karma)",
+          karmaBought: "Куплено 12 аккаунтов (2,500+ karma)",
           rating: 5,
-          text: "Раніше купували акаунти на рандомних форумах, і кожен другий ловив шедоубан на третьому пості. З ReddFan співпрацюємо вже 4-й місяць. Жодного відльоту на старті! Трафік на моделях зріс у 3.5 рази. Зараз Reddit дає нам понад $45,000 чистими в місяць.",
-          date: "3 дні тому"
+          text: "Раньше брали аккаунты на рандомных биржах, и каждый второй улетал в бан на третьем посте. С ReddFan работаем уже 4-й месяц. Ни одного слета на старте! Отлежка 6-8 недель и чистые прокси решают. Трафик вырос в разы, чистыми делаем отличные цифры.",
+          date: "3 дня назад"
         },
         {
           name: "Kristina_Vip",
           role: "Top 0.4% OnlyFans Creator",
           avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
-          karmaBought: "Послуга: Ведення під ключ",
+          karmaBought: "Тариф: 3,000 VIP (ID + Донат)",
           rating: 5,
-          text: "Хлопці з ReddFan взяли мій Reddit повністю на себе. До цього я взагалі не розуміла, які там правила в сабредітах і чому мої пости видаляли модератори. Зараз кожен день приходить по 30-50 нових платних фанів. Найкраща інвестиція в моє просування!",
-          date: "1 тиждень тому"
+          text: "Взяла VIP аккаунт с подтверждением личности и донатом за $200. Это просто небо и земля по сравнению с обычными! Посты сразу залетают в топ сабреддитов, автомоды даже не цепляются. Выросла с $2,000 до стабильных $10,000 в месяц исключительно за счет Reddit!",
+          date: "1 неделю назад"
         },
         {
           name: "Артем Д.",
           role: "Media Buyer / Adult Traffic Arbitrage",
           avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-          karmaBought: "Пакет: 5x Agency Dominator (40k Karma)",
+          karmaBought: "Пакет: 5x Advanced 2k Karma",
           rating: 5,
-          text: "Швидкість видачі в телеграмі — менше 5 хвилин. Логіни, пошта, кукі, точні інструкції по відлежці після входу. Прогрів видно неозброєним оком: живі коменти в сабах типу AskReddit, нормальні апвоути. Рекомендую всім, хто цінує якість, а не сміття з бірж.",
-          date: "2 тижні тому"
+          text: "Выдача в телеграме заняла меньше 10 минут. Куки, почта, инструкция по антидетекту. Прогрев живой, посты не удаляются. Плюс дали скидку 10% за опт. Рекомендую всем, кто работает с адалт-трафиком.",
+          date: "2 недели назад"
         },
         {
-          name: "Дмитро «Hunter»",
-          role: "Team Lead арбітражної команди",
+          name: "Дмитрий «Hunter»",
+          role: "Team Lead арбитражной команды",
           avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
-          karmaBought: "Постійний гуртовий замовник (50+ акаунтів)",
+          karmaBought: "Постоянный оптовый клиент",
           rating: 5,
-          text: "Головний плюс ReddFan — стабільність. Коли в Reddit черговий апдейт антифрод фільтрів, їхні акаунти тримаються найкраще, бо прогріті на чистих резидентах, а не через датацентрові IP. Окрема подяка сапорту за адекватність у будь-який час доби.",
-          date: "Вчора"
+          text: "Главный плюс ReddFan — стабильность и 72 часа гарантии. Любые обновления Reddit фильтров их аккаунты держат отлично, потому что отлежка реальная, а не нарисованная ботами. Саппорт в TG на связи всегда.",
+          date: "Вчера"
         }
       ]
     },
     shield: {
-      badge: "Чому саме ми",
-      title: "ReddFan Shield: Стандарти Якості",
-      subtitle: "Порівняйте підхід професійної студії та типових дешевих ботоферм на відкритих біржах.",
+      badge: "Почему именно мы",
+      title: "ReddFan Shield: Стандарты Качества",
+      subtitle: "Сравните подход профессиональной студии и типичных дешевых ботоферм на открытых биржах.",
       ourName: "ReddFan Studio",
-      competitorName: "Дешеві Ботоферми",
+      competitorName: "Дешевые Ботофермы",
       rows: [
         {
-          feature: "Спосіб формування карми",
-          us: "Ручний органічний постінг у трендових топіках",
-          them: "Спам-боти та взаємна накрутка у фермерських сабах",
+          feature: "Способ формирования кармы",
+          us: "Ручной органический постинг в трендовых топиках",
+          them: "Спам-боты и взаимная накрутка в фермерских сабах",
           status: true
         },
         {
-          feature: "Тип проксі при прогріві",
-          us: "Чисті приватні резидентські проксі США/ЄС",
-          them: "Заблоковані дешеві датацентрові пули",
+          feature: "Тип прокси при прогреве",
+          us: "Чистые приватные резидентские прокси США/ЕС",
+          them: "Заблокированные дешевые датацентровые пулы",
           status: true
         },
         {
-          feature: "Рідна пошта та безпека",
-          us: "100% передача первинної пошти + налаштований 2FA",
-          them: "Тимчасові одноразові мейли, відновлення доступу продавцем",
+          feature: "Родная почта и безопасность",
+          us: "100% передача первичной почты + настроенный 2FA",
+          them: "Временные одноразовые мейлы, риск восстановления",
           status: true
         },
         {
-          feature: "Проходження 18+ автомодераторів",
-          us: "Гарантований прохід у 99% NSFW сабредітів",
-          them: "Миттєве видалення постів фільтрами платформи",
+          feature: "Прохождение 18+ автомодераторов",
+          us: "Гарантированный проход в 99% NSFW сабреддитов",
+          them: "Мгновенное удаление постов спам-фильтрами",
           status: true
         },
         {
-          feature: "Гарантія заміни та супровід",
-          us: "48 годин офіційної гарантії + VIP чат 24/7",
-          them: "Без гарантій після оплати або ігнор у сапорті",
+          feature: "Гарантия замены и сопровождение",
+          us: "72 часа официальной гарантии + поддержка в Telegram",
+          them: "Без гарантий после оплаты или игнор в саппорте",
           status: true
         }
       ]
     },
     faq: {
-      badge: "Відповіді на запитання",
-      title: "Часті запитання (FAQ)",
-      subtitle: "Все, що вам потрібно знати перед початком роботи та купівлею акаунтів.",
+      badge: "Ответы на вопросы",
+      title: "Часто задаваемые вопросы (FAQ)",
+      subtitle: "Все, что вам нужно знать перед покупкой аккаунтов и началом работы.",
       items: [
         {
-          q: "Як безпечно зайти в куплений Reddit акаунт, щоб не зловити бан?",
-          a: "Разом з кожним акаунтом ми надаємо файл кукі (JSON), логін/пароль та детальну інструкцію. Найкращий спосіб — завантажити кукі в антидетект браузер (Dolphin{anty}, AdsPower тощо) з якісними резидентськими або мобільними проксі країни реєстрації акаунта (зазвичай США або Європа). Не змінюйте пароль у перші години — дайте сесії прижитися."
+          q: "Как безопасно зайти в купленный Reddit аккаунт, чтобы не получить бан?",
+          a: "Вместе с каждым аккаунтом мы предоставляем файл cookies (JSON), логин/пароль и пошаговую инструкцию. Оптимальный способ — импортировать куки в антидетект браузер (Dolphin{anty}, AdsPower и др.) с качественными резидентскими или мобильными прокси страны регистрации (обычно США/ЕС). Не меняйте пароль в первые часы после входа."
         },
         {
-          q: "В якому форматі я отримаю свій акаунт після оплати?",
-          a: "Видача здійснюється миттєво у нашому Telegram @ReddFan_Studio. Ви отримуєте зручний текстовий пакет: Логін:Пароль, Рідна пошта:Пароль від пошти, 2FA Secret Key (якщо підключено), резервні коди відновлення та прямий файл session cookies."
+          q: "В каком формате я получу аккаунт после оплаты?",
+          a: "Выдача происходит мгновенно в Telegram @ReddFan_Studio менее чем за 10 минут. Вы получаете структурированный файл: Логин:Пароль, Родная почта:Пароль от почты, 2FA Secret Key (если подключен), резервные коды и JSON-файл cookies."
         },
         {
-          q: "Чи підійдуть ваші акаунти для просування OnlyFans / 18+ контенту?",
-          a: "Так! Це наша ключова спеціалізація. Більшість звичайних акаунтів на ринку відразу блокуються при спробі опублікувати посилання або картинку в NSFW сабредітах. Наші акаунти мають природний прогрів, високу карму коментарів та достатній вік, що дозволяє проходити будь-які ліміти та автомодератори."
+          q: "Какая действует гарантия на купленные аккаунты?",
+          a: "Мы предоставляем честную 72-часовую гарантию на валидность всех аккаунтов. Если при входе возникли проблемы с соответствием кармы или доступом — мы оперативно заменим аккаунт или вернем средства."
         },
         {
-          q: "Які способи оплати ви приймаєте?",
-          a: "Ми приймаємо криптовалюту (USDT TRC20, BEP20, TON, Bitcoin, Ethereum), а також прямі оплати картками Visa/MasterCard. Усі реквізити надає наш офіційний менеджер у Telegram."
+          q: "Есть ли скидки при оптовой покупке или по рекомендации?",
+          a: "Да! У нас действует скидка 5-10% при заказе оптом (от 5-10 аккаунтов) или по программе «Приведи друга». Просто укажите об этом менеджеру в Telegram @ReddFan_Studio."
         },
         {
-          q: "Що робити, якщо з акаунтом виникла проблема?",
-          a: "Ми надаємо залізобетонну 48-годинну гарантію валідності на всі наші акаунти. Якщо при вході ви виявили невідповідність характеристикам або невалідність даних — ми замінимо акаунт протягом кількох хвилин або повернемо кошти."
+          q: "Подходят ли ваши аккаунты для продвижения OnlyFans / 18+?",
+          a: "Да, это наша основная специализация. Аккаунты имеют отлежку от 4 до 8+ недель, органическую карму комментариев и постов, что позволяет без проблем проходить строгие автомодераторы в NSFW сообществах."
         },
         {
-          q: "Як замовити повне ведення моделей під ключ?",
-          a: "Напишіть нам у Telegram @ReddFan_Studio з поміткою «Ведення моделей». Ми проведемо короткий аудит вашого контенту, обговоримо цілі та сформуємо персональну стратегію переливу трафіку."
+          q: "Какие способы оплаты вы принимаете?",
+          a: "Мы принимаем криптовалюту (USDT TRC20, BEP20, TON, BTC, ETH), а также прямые переводы на карты. Все реквизиты предоставляет официальный менеджер в Telegram."
         }
       ]
     },
     ctaBanner: {
-      badge: "Готові до вибухового росту?",
-      title: "Почніть масштабувати свій трафік разом з ReddFan Studio",
-      description: "Напишіть нашому менеджеру прямо зараз. Підберемо ідеальні акаунти з кармою під ваші сабредіти або запустимо трафік на вашу модель вже сьогодні!",
-      button: "Написати в Telegram: @ReddFan_Studio",
-      copiedToast: "Нікнейм @ReddFan_Studio скопійовано в буфер!",
-      directLinkNotice: "Відповідаємо за 2-3 хвилини • Конфіденційно"
+      badge: "Готовы к взрывному росту?",
+      title: "Начните масштабировать свой трафик вместе с ReddFan Studio",
+      description: "Напишите нашему менеджеру прямо сейчас. Подберем идеальные аккаунты с кармой под ваши сабреддиты или запустим трафик на вашу модель уже сегодня!",
+      button: "Написать в Telegram: @ReddFan_Studio",
+      copiedToast: "Никнейм @ReddFan_Studio скопирован в буфер!",
+      directLinkNotice: "Отвечаем менее чем за 10 минут • 100% Конфиденциально"
     },
     footer: {
-      tagline: "Елітна агенція Reddit трафіку, прогрітих акаунтів з кармою та росту 18+ моделей.",
-      quickLinksTitle: "Навігація",
-      contactsTitle: "Прямий зв'язок",
-      telegramChannel: "Офіційний Telegram: @ReddFan_Studio",
-      supportTime: "Підтримка та замовлення 24/7",
-      copyright: "© 2026 ReddFan Studio. Всі права захищено. Створено для лідерів індустрії."
+      tagline: "Элитное агентство по Reddit трафику, прогретым аккаунтам с кармой и росту 18+ моделей.",
+      quickLinksTitle: "Навигация",
+      contactsTitle: "Прямая связь",
+      telegramChannel: "Официальный Telegram: @ReddFan_Studio",
+      supportTime: "Поддержка и выдача 24/7",
+      copyright: "© 2026 ReddFan Studio. Все права защищены. Создано для лидеров индустрии."
     },
     widget: {
       status: "Менеджер онлайн",
-      heading: "Потрібна консультація або акаунти?",
-      text: "Зв'яжіться з нами в Telegram для миттєвої видачі",
-      button: "Відкрити @ReddFan_Studio",
-      copied: "Скопійовано!"
+      heading: "Нужна консультация или аккаунты?",
+      text: "Свяжитесь с нами в Telegram для выдачи менее чем за 10 минут",
+      button: "Открыть @ReddFan_Studio",
+      copied: "Скопировано!"
     }
   },
   en: {
     nav: {
-      accounts: "Karma Accounts",
+      accounts: "Accounts",
       services: "Services",
-      calculator: "ROI Calculator",
+      calculator: "Calculator",
       reviews: "Reviews",
-      shield: "Shield & Safety",
+      shield: "Safety",
       faq: "FAQ",
       onlineStatus: "Online in Telegram",
-      ctaButton: "Contact via TG",
+      ctaButton: "Contact TG",
       telegramHandle: "@ReddFan_Studio"
     },
     hero: {
@@ -367,142 +352,127 @@ export const content = {
       titleStart: "Elite Reddit Traffic & ",
       titleHighlight: "Aged Karma Accounts",
       titleEnd: " for OnlyFans & 18+ Industry",
-      description: "Scaling creators into the Top 0.1% on OnlyFans. Delivering hand-warmed high-karma Reddit accounts and orchestrating viral Tier-1 traffic funnels from the US, UK, and Europe.",
+      description: "Scaling creators into the Top 0.1% on OnlyFans. Delivering hand-warmed high-karma Reddit accounts and orchestrating viral Tier-1 traffic funnels from the US and Europe.",
       ctaPrimary: "Explore Karma Accounts",
       ctaSecondary: "Message on Telegram",
-      subtext: "Instant Dispatch • 48h Replacement Guarantee • 24/7 VIP Support",
+      subtext: "Instant Dispatch • 72h Replacement Guarantee • 24/7 VIP Support",
       stats: [
-        { value: "15,400+", label: "Accounts Delivered" },
-        { value: "$4.2M+", label: "Client Revenue Generated" },
+        { value: "1,000+", label: "Accounts Delivered" },
+        { value: "$500k+", label: "Client Revenue Generated" },
         { value: "99.8%", label: "Ban-Free Success Rate" },
-        { value: "< 3 mins", label: "Average Delivery Time" }
+        { value: "< 10 mins", label: "Average Delivery Time" }
       ],
       trustPill: "Trusted by top OnlyFans agencies & high-earning creators worldwide"
     },
     accounts: {
       badge: "Product Catalog",
       title: "Pre-Warmed Reddit Accounts with Karma",
-      subtitle: "Each account undergoes thorough manual warming on clean US/EU residential proxies, possesses authentic posting and comment history, and is primed for instant deployment in strict 18+ subreddits.",
+      subtitle: "Each account undergoes manual multi-stage warming on clean US/EU residential proxies, possesses authentic posting/comment history, and is primed for instant deployment in strict 18+ subreddits.",
       filterAll: "All Accounts",
-      filterStarter: "1k - 5k Karma",
-      filterPro: "10k - 30k Karma",
-      filterElite: "50k - 100k+ Karma",
-      filterAdult: "Niche 18+ Warmed",
-      cardBadgePopular: "Most Popular",
+      filterStarter: "200 Comment",
+      filterMid: "1500 - 2000 Karma",
+      filterHigh: "2500+ Karma",
+      filterVip: "3000 VIP (ID + Donation)",
+      cardBadgePopular: "Best Seller",
       cardBadgeBestValue: "Top Conversion",
-      cardBadgeWhale: "Maximum Trust",
+      cardBadgeVip: "Maximum Trust",
       buyNow: "Order via Telegram",
-      instantBadge: "Instant Dispatch",
+      instantBadge: "Fast Dispatch",
+      wholesaleNoticeTitle: "Bulk & Referral Program",
+      wholesaleNoticeDesc: "5-10% discount on all orders when buying in bulk or through our 'Refer a Friend' program!",
       items: [
         {
-          id: "starter-3k",
+          id: "tier-200c",
           category: "starter",
-          name: "Starter Warm Pack",
-          karma: "2,500 – 4,000",
-          karmaRatio: "70% Post / 30% Comment",
-          age: "4 – 8 months aged",
-          price: "$29",
-          badge: "Quick Launch",
+          name: "Starter Comment Warm",
+          karma: "200 Comment Karma",
+          karmaRatio: "100% Comment Karma",
+          age: "4+ weeks aged",
+          price: "$25",
+          badge: "Fast Launch",
           features: [
+            "200 genuine comment karma",
             "Clean original email included",
-            "Bypasses standard entry automods",
-            "Post comments without waiting intervals",
-            "Perfect for testing creatives and funnels",
-            "48-hour replacement warranty"
+            "Aged 4+ weeks on clean residential IPs",
+            "Bypasses standard comment automods",
+            "72-hour replacement warranty"
           ],
-          recommendedFor: "Beginners & creative testers"
+          recommendedFor: "Quick creative testing & commenting"
         },
         {
-          id: "growth-15k",
-          category: "pro",
-          name: "Pro Growth Traffic",
-          karma: "12,000 – 18,000",
-          karmaRatio: "60% Post / 40% Comment",
-          age: "1 – 2 years aged",
-          price: "$79",
+          id: "tier-1500k",
+          category: "mid",
+          name: "Pro Growth 1.5k",
+          karma: "1,500 Total Karma",
+          karmaRatio: "Balanced Post/Comment Mix",
+          age: "4+ weeks aged",
+          price: "$64",
+          badge: "Popular Pick",
+          features: [
+            "1,500 stable karma across active communities",
+            "Aged 4+ weeks on clean IPs",
+            "Unlocks posting in most 18+ subreddits",
+            "Full bundle: Cookies + Login/Pass + 2FA",
+            "72-hour replacement warranty"
+          ],
+          recommendedFor: "Starting active OnlyFans promo"
+        },
+        {
+          id: "tier-2000k",
+          category: "mid",
+          name: "Advanced Authority 2k",
+          karma: "2,000 Total Karma",
+          karmaRatio: "Natural activity balance",
+          age: "6+ weeks aged",
+          price: "$69",
           isPopular: true,
           badge: "Best Seller",
           features: [
-            "Access to 95% of restricted 18+ subreddits",
-            "High internal Reddit TrustScore",
+            "2,000 verified karma without drop risk",
+            "Aged 6+ weeks with elevated trust",
+            "Smooth passage through strict NSFW automods",
             "Natural activity across trending topics",
-            "Full bundle: Cookies + Login/Pass + 2FA",
-            "Step-by-step anti-detect login protocol"
+            "72-hour replacement warranty"
           ],
-          recommendedFor: "OnlyFans models & daily promo"
+          recommendedFor: "Regular daily OnlyFans promotions"
         },
         {
-          id: "dominator-45k",
-          category: "pro",
-          name: "Elite Dominator",
-          karma: "35,000 – 55,000",
-          karmaRatio: "50% Post / 50% Comment",
-          age: "2 – 4 years aged",
-          price: "$149",
+          id: "tier-2500k",
+          category: "high",
+          name: "Elite Heavyweight 2.5k+",
+          karma: "2,500+ Total Karma",
+          karmaRatio: "High-authority profile",
+          age: "6–8 weeks aged",
+          price: "$74",
           isBestValue: true,
           badge: "Viral Machine",
           features: [
-            "Unrestricted entry to top NSFW communities",
-            "Near-zero shadowban risk with aggressive promo",
-            "History of top-voted comments in r/all & r/AskReddit",
-            "Engineered to hit Hot & Top feeds",
-            "Priority replacement & 24/7 VIP chat"
+            "2,500+ organic karma with history",
+            "Aged 6-8 weeks on private residential proxies",
+            "Near-zero shadowban risk with active posting",
+            "Engineered to hit Hot & Top subreddit feeds",
+            "72-hour replacement warranty + VIP chat"
           ],
           recommendedFor: "Agencies scaling flagship creators"
         },
         {
-          id: "whale-100k",
-          category: "elite",
-          name: "Godlike Whale Tier",
-          karma: "80,000 – 130,000+",
-          karmaRatio: "Optimal Post/Comment Karma",
-          age: "4 – 7 years flawless history",
-          price: "$279",
+          id: "tier-3000vip",
+          category: "vip",
+          name: "VIP Supreme Trust 3k",
+          karma: "3,000 Karma + ID + Donation",
+          karmaRatio: "Maximum Reddit TrustScore",
+          age: "8+ weeks aged",
+          price: "$200",
           badge: "Absolute Authority",
           features: [
-            "Maximum attainable Reddit algorithmic trust",
-            "Immunity to most aggressive platform spam heuristics",
-            "Reddit Awards & verified user badges",
-            "Custom-tailored activity history on demand",
-            "Dedicated account manager on Telegram"
+            "3,000 highest-tier organic karma",
+            "Identity Verified status on profile",
+            "Reddit Gold / donation badge on account",
+            "Maximum trust from platform algorithms",
+            "Aged 8+ weeks on private US residential IPs",
+            "72-hour warranty + priority replacement"
           ],
-          recommendedFor: "Enterprise media buyers & adult syndicates"
-        },
-        {
-          id: "adult-custom",
-          category: "adult",
-          name: "18+ Pre-Warmed Model Persona",
-          karma: "15,000 – 30,000",
-          karmaRatio: "NSFW-optimized karma",
-          age: "1+ year aged",
-          price: "$119",
-          badge: "OnlyFans Ready",
-          features: [
-            "Pre-warmed in female & lifestyle communities",
-            "Established natural feminine profile",
-            "High bio-click conversion rate (CTR)",
-            "Direct links allowed in pinned profile posts",
-            "Turnkey setup ready for immediate posting"
-          ],
-          recommendedFor: "OnlyFans, Fansly & adult creators"
-        },
-        {
-          id: "agency-bundle",
-          category: "starter",
-          name: "Agency Starter Bundle (5x)",
-          karma: "5x accounts @ 5k – 8k Karma",
-          karmaRatio: "Balanced Post/Comment",
-          age: "6 – 12 months aged",
-          price: "$199",
-          badge: "Bulk Discount",
-          features: [
-            "5 completely distinct and isolated accounts",
-            "Different IP subnets during warming",
-            "25% bulk savings off retail price",
-            "Formatted export for anti-detect browsers",
-            "Fast deployment for multi-creator teams"
-          ],
-          recommendedFor: "Agencies managing 3+ models"
+          recommendedFor: "Top OnlyFans creators & premier agencies"
         }
       ]
     },
@@ -515,12 +485,12 @@ export const content = {
           id: "accounts-service",
           title: "Aged & High-Karma Reddit Accounts",
           highlight: "Core Offering",
-          description: "Premium accounts aged 6 months to 7+ years with up to 150k+ karma. Full ownership transfer, clean emails, and cookies configured for Dolphin{anty}, AdsPower, and GoLogin.",
+          description: "Premium accounts aged 4 to 8+ weeks with up to 3,000+ karma. Full ownership transfer, clean emails, and cookies configured for Dolphin{anty}, AdsPower, and GoLogin.",
           points: [
             "100% organic human warming without spam triggers",
-            "Clean private residential proxies across Tier-1 regions",
-            "48-hour replacement warranty against unexpected flags",
-            "Instant fulfillment through our Telegram desk"
+            "Clean private residential proxies across US/EU regions",
+            "Guaranteed replacement within 72 hours for any issues",
+            "Fast dispatch via Telegram desk in under 10 minutes"
           ]
         },
         {
@@ -542,9 +512,9 @@ export const content = {
           description: "End-to-end Reddit delegation for creator agencies and solo performers. From daily content calendars to community engagement and shadowban immunity.",
           points: [
             "Custom content plan & subreddit verification handling",
-            "Niche testing matrix to locate the highest-spending demographics",
+            "Niche testing matrix to locate high-spending demographics",
             "Transparent weekly performance and revenue reporting",
-            "Proven trajectory to $10,000+ monthly revenue from Reddit alone"
+            "Scaling creators from $2,000 to $10,000/mo from Reddit alone"
           ]
         }
       ]
@@ -553,13 +523,13 @@ export const content = {
       badge: "Interactive Estimator",
       title: "Reddit Traffic & Karma ROI Calculator",
       subtitle: "Estimate the reach, subscriber flow, and monthly earnings a professional Reddit setup generates for your creator roster.",
-      karmaLabel: "Total desired account karma:",
+      karmaLabel: "Select account package:",
       modelsLabel: "Number of creators / models:",
       resultsTitle: "Estimated Monthly Impact:",
       estimatedReach: "Estimated Post Impressions:",
       estimatedSubs: "Estimated Funnel Clicks:",
       estimatedRevenue: "Projected Creator Revenue:",
-      recommendedPack: "Recommended Account Setup:",
+      recommendedPack: "Recommended Setup:",
       orderCalculated: "Order this setup via Telegram"
     },
     reviews: {
@@ -573,36 +543,36 @@ export const content = {
           name: "Alex M.",
           role: "Owner @ Zenith OF Agency (14 creators)",
           avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
-          karmaBought: "Purchased 18 accounts (20k–50k karma)",
+          karmaBought: "Purchased 12 accounts (2,500+ karma)",
           rating: 5,
-          text: "We used to buy accounts from random marketplace bots, and half of them caught instant shadowbans on the 3rd post. We've worked with ReddFan for 4 months now. Zero initial bans! Creator traffic surged 3.5x. Reddit now generates over $45,000 net monthly for our roster.",
+          text: "We used to buy accounts from random marketplace bots, and half got shadowbanned on the 3rd post. We've worked with ReddFan for 4 months now. Zero initial bans! 6-8 weeks aging on clean IPs makes all the difference. High quality traffic and great ROI.",
           date: "3 days ago"
         },
         {
           name: "Kristina_Vip",
           role: "Top 0.4% OnlyFans Creator",
           avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
-          karmaBought: "Service: Full-Cycle Management",
+          karmaBought: "Tier: 3,000 VIP (ID + Donation)",
           rating: 5,
-          text: "The ReddFan team took over my entire Reddit presence. Before them, I had no clue how to navigate mod rules and why my posts kept disappearing. Now I get 30 to 50 new paying subscribers every single day. By far my best marketing investment!",
+          text: "Purchased the VIP account with identity verification and donation for $200. Night and day difference! Posts hit the top of subreddits effortlessly without automod issues. Grew from $2,000 to a consistent $10,000/month strictly from Reddit!",
           date: "1 week ago"
         },
         {
           name: "Arthur D.",
           role: "Media Buyer / Adult Traffic Arbitrage",
           avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-          karmaBought: "Package: 5x Agency Dominator (40k Karma)",
+          karmaBought: "Bundle: 5x Advanced 2k Karma",
           rating: 5,
-          text: "Delivery in Telegram took under 5 minutes. Login credentials, email access, cookies, and precise warm-up notes. Real comments in mainstream subs like AskReddit, organic upvotes. Highly recommended to anyone who values genuine quality.",
+          text: "Delivery in Telegram took under 10 minutes. Cookies, email, and anti-detect instructions. Warmup is genuine, posts stay up. Plus received a 10% bulk discount. Highly recommended for anyone working with adult traffic.",
           date: "2 weeks ago"
         },
         {
           name: "Dmitry 'Hunter'",
           role: "Performance Marketing Lead",
           avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
-          karmaBought: "Enterprise Client (50+ accounts)",
+          karmaBought: "Enterprise Bulk Client",
           rating: 5,
-          text: "ReddFan's biggest edge is consistency. When Reddit rolls out aggressive anti-spam algorithmic updates, their accounts hold up because they're built on clean residential IPs. Major props to their support desk for instant responsiveness 24/7.",
+          text: "ReddFan's biggest edge is consistency and their 72-hour warranty. When Reddit rolls out spam filter updates, their accounts hold up because the aging is real. Telegram support is always responsive.",
           date: "Yesterday"
         }
       ]
@@ -640,7 +610,7 @@ export const content = {
         },
         {
           feature: "Warranty & Support",
-          us: "48-hour unconditional replacement + 24/7 VIP chat",
+          us: "72-hour unconditional replacement + Telegram support",
           them: "Zero post-sale guarantee, ghosted by seller",
           status: true
         }
@@ -653,27 +623,27 @@ export const content = {
       items: [
         {
           q: "How do I safely log into my new Reddit account without getting banned?",
-          a: "With every account, we provide a JSON session cookie, credentials, and step-by-step setup guides. The gold standard is importing the cookies into an anti-detect browser (Dolphin{anty}, AdsPower, etc.) paired with a clean residential proxy matching the account's region. Avoid changing credentials in the first few hours."
+          a: "With every account, we provide a JSON session cookie, credentials, and step-by-step setup guides. The standard practice is importing the cookies into an anti-detect browser (Dolphin{anty}, AdsPower, etc.) paired with a clean residential proxy matching the account's registration country (usually US/EU). Avoid changing password in the initial hours."
         },
         {
           q: "What format will I receive upon purchase?",
-          a: "Fulfillment is handled instantly via Telegram @ReddFan_Studio. You receive a structured dossier: Username:Password, Original Email:Email Password, 2FA Secret Key (if enabled), emergency backup codes, and direct cookie files."
+          a: "Fulfillment is handled rapidly via Telegram @ReddFan_Studio in under 10 minutes. You receive a structured dossier: Username:Password, Original Email:Email Password, 2FA Secret Key (if enabled), emergency backup codes, and direct JSON cookies."
+        },
+        {
+          q: "What is your replacement warranty?",
+          a: "We provide an unconditional 72-hour warranty on all accounts. If you encounter any credential or karma discrepancy upon initial login, our desk replaces the account or refunds promptly."
+        },
+        {
+          q: "Do you offer bulk or referral discounts?",
+          a: "Yes! We offer a 5-10% discount on bulk purchases (5+ accounts) or through our 'Refer a Friend' program. Simply mention this to our manager on Telegram @ReddFan_Studio."
         },
         {
           q: "Are these accounts suitable for OnlyFans / 18+ promotions?",
-          a: "Yes! That is our primary specialty. Ordinary fresh accounts get flagged or auto-removed when posting links or suggestive media. Our accounts have high comment karma, account longevity, and historical trust scores that breeze through subreddit gates."
+          a: "Yes, that is our core specialty. Our accounts have 4 to 8+ weeks of authentic aging, high comment/post karma, and historical trust scores that effortlessly pass strict subreddit gates."
         },
         {
           q: "What payment methods do you support?",
-          a: "We accept all major cryptocurrencies (USDT TRC20, BEP20, TON, BTC, ETH) as well as direct card transfers. Requisites are provided directly in our official Telegram desk."
-        },
-        {
-          q: "What if there is an issue with an account?",
-          a: "We back every single delivery with a 48-hour warranty. If you encounter any credential or validation discrepancy, our desk replaces the account within minutes."
-        },
-        {
-          q: "How do I book full-cycle model management?",
-          a: "Message us directly on Telegram @ReddFan_Studio with the note 'Model Management'. We will evaluate your creator's media assets, discuss revenue targets, and tailor a custom Reddit growth strategy."
+          a: "We accept cryptocurrencies (USDT TRC20, BEP20, TON, BTC, ETH) as well as direct card transfers. Payment details are provided directly by our manager on Telegram."
         }
       ]
     },
@@ -683,7 +653,7 @@ export const content = {
       description: "Chat with our desk right now. We will curate the ideal karma account bundle for your niche or initiate traffic funnels for your creator roster immediately!",
       button: "Chat on Telegram: @ReddFan_Studio",
       copiedToast: "Telegram username @ReddFan_Studio copied to clipboard!",
-      directLinkNotice: "Average response time: 2-3 minutes • 100% Confidential"
+      directLinkNotice: "Average response time: under 10 minutes • 100% Confidential"
     },
     footer: {
       tagline: "Premier agency for Reddit traffic funnels, high-karma warmed accounts, and 18+ creator growth.",
@@ -696,7 +666,7 @@ export const content = {
     widget: {
       status: "Agent Online",
       heading: "Need accounts or guidance?",
-      text: "Connect with our Telegram desk for instant dispatch",
+      text: "Connect with our Telegram desk for dispatch in under 10 minutes",
       button: "Open @ReddFan_Studio",
       copied: "Copied!"
     }

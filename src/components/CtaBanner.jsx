@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Send, Copy, Check, Sparkles } from 'lucide-react';
 
-export default function CtaBanner({ t }) {
+export default function CtaBanner({ t, lang }) {
   const [copied, setCopied] = useState(false);
 
   const copyUsername = () => {
@@ -61,7 +61,7 @@ export default function CtaBanner({ t }) {
               ) : (
                 <>
                   <Copy className="w-4 h-4 text-[#00F0FF]" />
-                  <span>Скопіювати @ReddFan_Studio</span>
+                  <span>{lang === 'ru' ? 'Скопировать @ReddFan_Studio' : 'Copy @ReddFan_Studio'}</span>
                 </>
               )}
             </button>

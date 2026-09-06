@@ -81,8 +81,8 @@ export default function Services({ t, lang }) {
                 <div className="mt-8 pt-6 border-t border-white/10">
                   <a
                     href={`https://t.me/ReddFan_Studio?text=${encodeURIComponent(
-                      lang === 'ua' 
-                        ? `Доброго дня! Цікавить послуга "${service.title}". Розкажіть деталі та умови.`
+                      lang === 'ru' 
+                        ? `Здравствуйте! Интересует услуга "${service.title}". Расскажите детали и условия.`
                         : `Hello! I am interested in "${service.title}". Please share details and pricing.`
                     )}`}
                     target="_blank"
@@ -90,7 +90,7 @@ export default function Services({ t, lang }) {
                     className="w-full py-3 px-4 rounded-xl font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 bg-[#16182B] hover:bg-[#1E213A] text-white border border-white/10 hover:border-[#FF007A]/50 transition-all duration-200 group-hover:shadow-lg"
                   >
                     <Send className="w-3.5 h-3.5 text-[#00F0FF]" />
-                    <span>{lang === 'ua' ? 'Замовити консультацію' : 'Book a consultation'}</span>
+                    <span>{lang === 'ru' ? 'Заказать консультацию' : 'Book a consultation'}</span>
                     <ArrowRight className="w-3.5 h-3.5 text-slate-400 group-hover:translate-x-1 transition-transform" />
                   </a>
                 </div>

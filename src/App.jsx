@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 import TelegramWidget from './components/TelegramWidget';
 
 export default function App() {
-  const [lang, setLang] = useState('ua');
+  const [lang, setLang] = useState('ru');
   const t = content[lang];
 
   return (
@@ -34,7 +34,7 @@ export default function App() {
         <Reviews t={t} lang={lang} />
         <Comparison t={t} lang={lang} />
         <FAQ t={t} />
-        <CtaBanner t={t} />
+        <CtaBanner t={t} lang={lang} />
       </main>
 
       {/* Footer */}

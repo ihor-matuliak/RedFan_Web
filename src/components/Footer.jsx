@@ -64,8 +64,8 @@ export default function Footer({ t, lang }) {
               {t.footer.contactsTitle}
             </h4>
             <p className="text-xs text-slate-400">
-              {lang === 'ua' 
-                ? 'Усі замовлення, видача акаунтів та консультації проводяться через офіційний акаунт:' 
+              {lang === 'ru' 
+                ? 'Все заказы, выдача аккаунтов и консультации проводятся через официальный Telegram:' 
                 : 'All orders, account dispatches, and private inquiries are processed via our official desk:'}
             </p>
 

@@ -112,27 +112,27 @@ export default function Reviews({ t, lang }) {
             <div className="lg:col-span-6 space-y-4">
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#00F0FF]/20 text-xs font-bold text-[#00F0FF]">
                 <TrendingUp className="w-3.5 h-3.5" />
-                <span>{lang === 'ua' ? 'Кейс Місяця' : 'Case Study of the Month'}</span>
+                <span>{lang === 'ru' ? 'Кейс Месяца' : 'Case Study of the Month'}</span>
               </div>
               <h3 className="font-display font-black text-2xl sm:text-3xl text-white">
-                {lang === 'ua' 
-                  ? 'Ріст OnlyFans моделі з $3,200 до $24,800/місяць за 45 днів' 
-                  : 'Scaling an OnlyFans creator from $3,200 to $24,800/mo in 45 days'}
+                {lang === 'ru' 
+                  ? 'Рост OnlyFans модели с $2,000 до $10,000/месяц за 45 дней' 
+                  : 'Scaling an OnlyFans creator from $2,000 to $10,000/mo in 45 days'}
               </h3>
               <p className="text-sm text-slate-300 leading-relaxed">
-                {lang === 'ua'
-                  ? 'Використали 4 прогрітих акаунти з кармою 35k+, таргетовані пости у 22 профільних сабредітах та щоденний органічний пуш. 0 блокувань та понад 1,840 нових платних підписників.'
-                  : 'Deployed 4 aged accounts with 35k+ karma, pinpoint posting in 22 niche communities, and daily organic momentum. Zero flags, yielding over 1,840 new paying subs.'}
+                {lang === 'ru'
+                  ? 'Использовали 3 прогретых аккаунта с отлежкой 6-8 недель, целевой постинг в 25 профильных сабреддитах и органический пуш. 0 блокировок и стабильный поток новых платных фанов.'
+                  : 'Deployed 3 pre-warmed accounts with 6-8 weeks aging, targeted posting in 25 niche subreddits, and organic momentum. Zero flags and a steady stream of paying fans.'}
               </p>
               
               <div className="grid grid-cols-3 gap-3 pt-2">
                 <div className="p-3 rounded-xl bg-[#0C0E1A] border border-white/5 text-center">
-                  <div className="font-display font-black text-lg sm:text-xl text-[#FF7A00]">+720%</div>
+                  <div className="font-display font-black text-lg sm:text-xl text-[#FF7A00]">+400%</div>
                   <div className="text-[10px] text-slate-400">MRR Growth</div>
                 </div>
                 <div className="p-3 rounded-xl bg-[#0C0E1A] border border-white/5 text-center">
-                  <div className="font-display font-black text-lg sm:text-xl text-[#00F0FF]">1,840+</div>
-                  <div className="text-[10px] text-slate-400">Paid Fans</div>
+                  <div className="font-display font-black text-lg sm:text-xl text-[#00F0FF]">$10,000</div>
+                  <div className="text-[10px] text-slate-400">Monthly Rev</div>
                 </div>
                 <div className="p-3 rounded-xl bg-[#0C0E1A] border border-white/5 text-center">
                   <div className="font-display font-black text-lg sm:text-xl text-emerald-400">0 bans</div>
